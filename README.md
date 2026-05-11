@@ -32,17 +32,7 @@ make -j8
 
 ## Compilar en Windows
 
-Es necesario tener instalado Visual Studio con soporte para C++ y CMake.
-
-Desde la raíz del proyecto, generar la solución:
-
-```powershell
-mkdir build
-cd build
-cmake ..
-```
-
-Después, abrir el fichero de solución `.sln` generado en la carpeta `build` con Visual Studio y compilar el proyecto desde el IDE.
+En entornos windows con visual studio Abrir diréctamente el fichero de solución de VS Darle a compilar
 
 ## Ejecutar
 
