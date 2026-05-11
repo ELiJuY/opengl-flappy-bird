@@ -1,0 +1,67 @@
+# =========================
+# Build / CMake
+# =========================
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# =========================
+# Binarios
+# =========================
+bin/
+flappy
+*.out
+*.exe
+*.o
+*.so
+*.a
+
+# =========================
+# Objetos intermedios
+# =========================
+*.obj
+*.o
+*.lo
+*.la
+*.d
+
+# =========================
+# Assimp / libs compiladas
+# =========================
+external/gpo-framework/libs/**/CMakeFiles/
+external/gpo-framework/libs/**/Makefile
+external/gpo-framework/libs/**/cmake_install.cmake
+external/gpo-framework/libs/**/lib/
+external/gpo-framework/libs/**/bin/
+
+# =========================
+# Build interno del framework
+# =========================
+external/gpo-framework/bin/
+external/gpo-framework/CMakeFiles/
+external/gpo-framework/Makefile
+external/gpo-framework/cmake_install.cmake
+
+# =========================
+# Archivos temporales
+# =========================
+*.log
+*.tmp
+*.swp
+*~
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db

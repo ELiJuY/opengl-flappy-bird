@@ -1,0 +1,3 @@
+[submodule "external/gpo-framework"]
+	path = external/gpo-framework
+	url = https://github.com/juanpebm/gpo-framework
